@@ -1,5 +1,8 @@
 #WEB js exercise 2
 
+## Prior knowledge
+了解上禮拜的 code
+
 ## Requirement
 1. 使用 jquery 的方式，改寫 createTodoElement 以及微調其他相關的方程式。
 2. 用 jqeury 的方式拿取/重設 input 的值。
@@ -8,7 +11,7 @@
 
 
 
-## guide
+## Guide
 1-1 jquery 創建 element 的方式 http://api.jquery.com/jQuery/#jQuery2
 
 3-1 要使用到 clickEvent.preventDefault()
