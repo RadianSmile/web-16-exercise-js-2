@@ -87,7 +87,7 @@ submitBtnEle.addEventListener("click",function(clickEvent){   // 2. 10mins
 		todoData.done	 = false ;
 		todoDataArray.push(todoData);
 
-		updatetodoListEle(todoData) ;
+		updatetodoListEle(todoDataArray) ;
 
 		todoInputEle.value        = "" ;
 		validateHintEle.className = "" ;

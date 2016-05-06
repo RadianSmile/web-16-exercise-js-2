@@ -18,10 +18,10 @@
 https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 
 3-2 flickr 相關的 api 文件
- https://www.flickr.com/services/api/flickr.photos.getRecent.html
+ https://www.flickr.com/services/api/flickr.photos.search.html
 
 3-3 flickr api 試用：輸入你要找的關鍵字在 text 欄位；挑選不簽署呼叫；輸出格式選 JSON ；點選 call method 按鈕後，就可以在文件最下面看到範例的 api 網址。
- https://www.flickr.com/services/api/explore/flickr.photos.getRecent
+ https://www.flickr.com/services/api/explore/flickr.photos.search
 
 3-4 照片 URL 格式說明
  https://www.flickr.com/services/api/misc.urls.html
@@ -41,3 +41,5 @@ http://ricostacruz.com/jquery.transit/
 ```
 
 4-3 $(this) 是指觸發 callback 的 Element 的 jqeury 物件。
+```
+```
