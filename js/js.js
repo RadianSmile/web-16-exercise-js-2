@@ -33,9 +33,7 @@ submitBtnEle.addEventListener("click",function(clickEvent){   // 2. 10mins
 		console.log (todoDataArray);
 		todoDataArray.push(todoData);
 
-		var todoEle = createTodoElement(todoData) ;
-		todoListEle.appendChild(todoEle);
-
+		updatetodoListEle(todoDataArray) ;
 
 		todoInputEle.value = "" ;
 		validateHintEle.className = "" ;
@@ -67,7 +65,6 @@ function createTodoElement (todoData){
 	if (todoData.done){
 		todoEle.className += " list-group-item-success" ;
 	}
-
 	todoEle.addEventListener("click",function(e){
 		console.log ("todo");
 		todoData.done = true ;
